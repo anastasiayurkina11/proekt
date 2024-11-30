@@ -1,6 +1,6 @@
 html {
  box-sizing: border-box;
- scroll-behavior: smooth; /* Плавный скроллинг */
+ scroll-behavior: smooth; 
 }
 
 *,
@@ -19,71 +19,71 @@ body {
  min-height: 100vh;
  background-position: center center;
  background-size: cover;
- font-family: "Montserrat", sans-serif; /* Используем шрифт Montserrat */
+ font-family: "Montserrat", sans-serif; 
 }
 
 
 .container {
  max-width: 1190px;
- padding: 0 5px; /* Увеличиваем боковые отступы */
- margin: 0 auto; /* Центрируем контейнер по горизонтали */
+ padding: 0 5px;
+ margin: 0 auto; 
 }
 
 
 .header {
- padding-top: 40px; /* Увеличиваем верхний отступ шапки, чтобы логотип и меню не прилипали к экрану */
+ padding-top: 40px; 
  background-color: #412d39;
  padding-bottom: 20px;
 }
 
 
 .header__inner {
- display: flex; /* Выстраиваем элементы внутри контейнера в строку */
- justify-content: space-between; /* Распределяем элементы по ширине контейнера */
- align-items: center; /* Выравниваем элементы по вертикали */
+ display: flex; 
+ justify-content: space-between; 
+ align-items: center; 
 }
 
 .footer {
- padding-top: 50px; /* Увеличиваем верхний отступ шапки, чтобы логотип и меню не прилипали к экрану */
+ padding-top: 50px; 
  background-color: #412d39;
 }
 
 
 .footer__inner {
- display: flex; /* Выстраиваем элементы внутри контейнера в строку */
- justify-content: center; /* Распределяем элементы по ширине контейнера */
- align-items: center; /* Выравниваем элементы по вертикали */
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
  padding-bottom: 20px;
 }
 
 .logo {
- text-transform: uppercase; /* Преобразуем текст в верхний регистр */
- font-size: 28px; /* Устанавливаем размер шрифта */
- font-weight: 900; /* Устанавливаем жирное начертание шрифта */
- color: white; /* Устанавливаем цвет логотипа */
+ text-transform: uppercase; 
+ font-size: 28px; 
+ font-weight: 900; 
+ color: white; 
 }
 
 
 .menu__list {
- display: flex; /* Отображаем элементы списка в строку */
- list-style: none; /* Убираем стандартные маркеры (чёрные точки) */
+ display: flex; 
+ list-style: none; 
 }
 
 .menu__list-item {
- margin-right: 20px; /* Добавляем отступ между пунктами меню */
+ margin-right: 20px; 
 }
 
 .menu__list-link {
- padding: 10px 20px; /* Увеличиваем вертикальный и горизонтальный отступы */
- font-size: 20px; /* Уменьшаем размер шрифта */
- color: white; /* Устанавливаем цвет ссылок */
- cursor: pointer; /* Задаём изменение вида курсора при наведении на пункты меню */
- transition: all 0.3s; /* Добавляем плавное изменение стилей при наведении */
+ padding: 10px 20px; 
+ font-size: 20px;
+ color: white;
+ cursor: pointer; 
+ transition: all 0.3s; 
 }
 
 
 .menu__list-link:hover {
- color: #D94040; /* Задаём изменение цвета ссылок при наведении курсора */
+ color: #D94040; 
 }
 
 * {
@@ -161,10 +161,10 @@ h2 {
 }
 
 .contact-person img {
-    width: 200px; /* Ширина изображения */
-    height: 200px; /* Высота изображения */
-    margin-right: 15px; /* Отступ между изображением и описанием */
-    border-radius: 50%; /* Округление изображения */
+    width: 200px; 
+    height: 200px; 
+    margin-right: 15px; 
+    border-radius: 50%; 
 }
 
 
@@ -186,22 +186,22 @@ h2 {
 .social-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #D94040; /* Цвет для ссылок */
+    color: #D94040; 
 }
 
 .social-links a:hover {
-    text-decoration: underline; /* Подчеркивание при наведении */
+    text-decoration: underline; 
 }
 
 h2 {
     margin-bottom: 20px;
-    color: white; /* Цвет заголовка */
+    color: white;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Промежуток между кнопками */
+    gap: 20px; 
 }
 
 .social-button {
@@ -209,17 +209,17 @@ h2 {
     align-items: center;
     text-decoration: none;
     padding: 10px 15px;
-    border: 1px solid #412d39; /* Цвет границы кнопки */
-    border-radius: 5px; /* Закругление углов кнопки */
-    background-color: #fff; /* Цвет кнопки */
-    color: #412d39; /* Цвет текста кнопки */
-    transition: background-color 0.3s, color 0.3s; /* Плавный переход для эффектов */
+    border: 1px solid #412d39; 
+    border-radius: 5px; 
+    background-color: #fff; 
+    color: #412d39; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .social-button img {
-    width: 24px; /* Ширина иконки */
-    height: 24px; /* Высота иконки */
-    margin-right: 8px; /* Отступ между иконкой и текстом */
+    width: 24px; 
+    height: 24px; 
+    margin-right: 8px; 
 }
 
 .social-button:hover {
